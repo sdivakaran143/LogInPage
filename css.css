@@ -5,7 +5,7 @@
     position:absolute;
     top: 50%;left: 50%;
     transform: translate(-50%,-50%);
-    background-color: burlywood;
+    background-color: rgb(126, 192, 230);
     height: 380px;
     width: 300px;
     padding: 30px;
@@ -28,15 +28,25 @@ h1{
     margin: 0px 0px 0px 0px;
     width: 200px;
 }
+.feild label:focus{
+    transform: translateY(0px);
+}
 .feild label{
     font-size: small;
     opacity: 50%;
-    border-top: 1px solid;
-
+    border-top: 1px solid black;
+    color: white;
+    transform: translateY(-20px);
 }
 .feild div{
     display: flex;
     flex-flow:column-reverse;
     justify-content: center;
     padding: 0px 0px 15px 0px;
+}
+.button{
+    margin: 10px 0px 0px 0px ;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(11, 124, 189);
+    color: white;
 }
