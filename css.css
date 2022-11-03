@@ -10,6 +10,7 @@
     width: 300px;
     padding: 30px;
     box-sizing: border-box;
+    border: 2px solid black;
 }
 .main form{
     display: flex;
@@ -27,16 +28,21 @@ h1{
     background: none;
     margin: 0px 0px 0px 0px;
     width: 200px;
+    border-bottom:1px solid black ;
 }
-.feild label:focus{
+/* .feild label:focus{
     transform: translateY(0px);
+} */
+.feild input:focus + .feild label{
+    background-color: black;
 }
 .feild label{
     font-size: small;
     opacity: 50%;
-    border-top: 1px solid black;
-    color: white;
+    padding: 4px 0px 0px 3px;
+    color: rgb(0, 0, 0);
     transform: translateY(-20px);
+    pointer-events: none;
 }
 .feild div{
     display: flex;
@@ -48,5 +54,10 @@ h1{
     margin: 10px 0px 0px 0px ;
     padding: 5px 20px 5px 20px;
     background-color: rgb(11, 124, 189);
+    color: white; border: 1px solid black;
+}
+span a{
+    text-decoration: none;
     color: white;
+    font-size: smaller;
 }
