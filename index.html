@@ -5,23 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css.css">
-    <title>Document</title>
+    <title>logIN</title>
 </head>
 <body>
     <div class="main">
         <h1>Login</h1><br><br>
-        <form action="post">
-           <div class="feild"> 
-            <div><label for="">MAIL_ID</label>
-            <input type="mailid" ><br></div>
-            <div><label for="">PASSWORD</label><input type="password"></div>
+        <form >
+           <div class="feild">
+           
+            <div><label for="" id="inp1">MAIL ID</label>
+            <input type="mailid" onclick="actionn('inp1')" value=""><br></div>
+            <div><label for="" id="inp2">PASSWORD</label><input type="password"  onclick="actionn('inp2')" value=""></div>
             </div>
             <span><a href="https://img.freepik.com/premium-vector/bye-bye-cute-emoji-cartoon-character-yellow-backround_106878-540.jpg?w=2000">Forget password ?</a></span><br><br>
-            <input class="button" type="submit" value="LogIn">
+            <input class="button" onclick="" type="submit" value="LogIn">
         </form>
         <div class="crac">
             <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbAg3O6fxlY09CNZl-qfsoY1t0J6JFyPEC7w&usqp=CAU">Create A New Account</a>
         </div>
     </div>
+    <script src="js.js"></script>
 </body>
 </html>

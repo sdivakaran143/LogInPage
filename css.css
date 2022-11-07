@@ -46,6 +46,7 @@ h1{
     padding: 4px 0px 0px 3px;
     color: rgb(0, 0, 0);
     transform: translateY(-20px);
+    transition-duration: 0.25s;
     pointer-events: none;
 }
 .feild div{
@@ -92,6 +93,7 @@ color:#0d6efd;
     color: aliceblue;
     font-variant: small-caps;
 }
- .feild input:valid ~ label{
-    background-color: aqua;
+
+.feild input:user-valid ~ .feild label{
+    background-color: #0d6efd;
 }
