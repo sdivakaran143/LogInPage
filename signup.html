@@ -1,0 +1,99 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@sdivakaran143
+sdivakaran143 /
+Form
+Public
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+    Settings
+
+Form/index.html
+@sdivakaran143
+sdivakaran143 Add files via upload
+Latest commit c6b7ea4 Nov 5, 2022
+History
+1 contributor
+70 lines (69 sloc) 2.33 KB
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+   <div class="box">
+    <div class="main">
+        <form >
+          <div>
+            <label for="FirstName">firstname</label>
+            <input type="text" required>
+          </div>
+          <div>
+            <label for="LAstName">lastname</label>
+            <input type="text" required>
+          </div>
+          <div>
+            <label for="phonenumber">phonename</label>
+            <input type="number" required>
+          </div>  <div>
+            <label for="Email">emailid</label>
+            <input type="email" required>
+          </div>  
+          <div>
+            <label for="Contry">contry</label><br>
+            <select name="" id="" required>
+                <option value="">chose country</option>
+                <option value="">India</option>
+                <option value="">USA</option>
+                <option value="">UAE</option>
+                <option value="">China</option>
+            </select>
+          </div>  
+          <div>
+            <label for="Role">role</label><br>
+            <select name="" id="" required>
+                <option value="">select Role</option>
+                <option value="">Student</option>
+                <option value="">Admin</option>
+                <option value="">Faculty</option>
+            </select>
+          </div>  
+          <div>
+            <label for="DOB">dob</label><br>
+            <input type="date" required>
+          </div>  
+          <div>
+            <label for="New password">new password</label><br>
+            <input type="password" required>
+        </div>
+        <div>
+            <label for="confirm password">confirm password</label>
+            <input type="password" required>
+          </div>  
+          <div><input class="check" type="checkbox" required>
+            <span>accept terms and conditions
+            </span><br><br></form>
+            <button type="button" class="last" id="bu" >Submit form</button>
+        </div>
+        
+    </div>
+   </div>
+   <script src="javascript.js"></script>
+</body>
+</html>
