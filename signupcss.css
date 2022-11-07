@@ -1,8 +1,11 @@
 .box{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-size:17px;
     font-variant:small-caps;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(247, 225, 238);
 }
 .main div{
     padding: 7px;
@@ -12,10 +15,13 @@
     padding: 20px 5px 20px 5px;
     position: absolute;
     top: 50%;
+    background: linear-gradient(rgb(247, 189, 223),white);
     left: 50%;
     transform: translate(-50%,-50%); 
     box-sizing: border-box; 
-    border: 2px solid black;
+    border-radius: 10px ;
+    box-shadow: 3px 5px 15px rgb(143, 143, 143) ; 
+
 }
 .last{
   border: none; 
