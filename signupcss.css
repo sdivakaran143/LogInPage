@@ -3,15 +3,11 @@
     font-size:17px;
     font-variant:small-caps;
 }
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(247, 225, 238);
-}
-.main div{
+.signupmain div{
     padding: 7px;
     width: 220px;
 }
-.main{
+.signupmain{
     padding: 20px 5px 20px 5px;
     position: absolute;
     top: 50%;
@@ -37,11 +33,11 @@ body{
     color: aliceblue;
     font-weight: 200px;
 }
-.main input{
+.signupmain input{
     border-radius: 0%;
     border: 1px solid black;
 }
-.main input:focus{
+.signupmain input:focus{
     border-radius: 0px;
     outline: 2px solid rgb(162, 168, 245);
 }
