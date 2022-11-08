@@ -11,61 +11,60 @@
    <div class="box">
     <div class="signupmain">
         <span class="title">Signup</span>
-        <form >
+        <form>
           <div>
-            <label for="FirstName">firstname</label>
+            <label id="fn" for="FirstName" >firstname</label>
+            <input  onclick="actionn('fn')" type="text" required>
+          </div>
+          <div>
+            <label id="ln"for="LAstName">lastname</label>
             <input type="text" required>
           </div>
           <div>
-            <label for="LAstName">lastname</label><br>
-            <input type="text" required>
-          </div>
-          <div>
-            <label for="phonenumber">phonename</label><br>
+            <label id="pn" for="phonenumber">phonename</label>
             <input type="number" required>
-          </div>  <div>
-            <label for="Email">emailid</label><br>
+          </div> <div>
+            <label id="eid" for="Email">emailid</label>
             <input type="email" required>
           </div>  
           <div>
-            <label for="Contry">contry</label><br>
+            <label  for="Contry">contry</label>
             <select name="" id="" required>
                 <option value="">chose country</option>
                 <option value="">India</option>
-                <option value="">USA</option>
-                <option value="">UAE</option>
-                <option value="">China</option>
+                <option value="">usa</option>
+                <option value="">uae</option>
+                <option value="">china</option>
             </select>
           </div>  
           <div>
-            <label for="Role">role</label><br>
+            <label for="Role">role</label>
             <select name="" id="" required>
                 <option value="">select Role</option>
-                <option value="">Student</option>
-                <option value="">Admin</option>
-                <option value="">Faculty</option>
+                <option value="">student</option>
+                <option value="">admin</option>
+                <option value="">faculty</option>
             </select>
           </div>  
           <div>
-            <label for="DOB">dob</label><br>
+            <label id="dob" for="DOB">dob</label>
             <input type="date" required>
           </div>  
           <div>
-            <label for="New password">new password</label><br>
+            <label  id="np"for="New password">new password</label>
             <input type="password" required>
         </div>
         <div>
-            <label for="confirm password">confirm password</label>
+            <label id="cp" for="confirm password">confirm password</label>
             <input type="password" required>
-          </div>  
-          <div><input class="check" type="checkbox" required>
-            <span>accept terms and conditions
-            </span><br><br></form>
-            <button type="button" class="crac" >Submit form</button>
+        </div>  
+        <div class="check">
+            <p><input  type="checkbox" class="checkbox-btn">accept terms and conditions</p>
         </div>
-        
+        <button type="button" class="crac" >Submit form</button>
+      </form>
     </div>
    </div>
-   <script src="javascript.js"></script>
+   <script src="js.js"></script>
 </body>
 </html>
