@@ -1,11 +1,15 @@
+body{
+    font-family: 'Franklin Gothic Medium','Gill Sans MT', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(247, 225, 238);
+}
 .box{
     text-align: center;
     font-size:17px;
     font-variant:small-caps;
 }
 .signupmain div{
-    padding: 7px;
-    width: 220px;
+    padding: 20px;
+    width: 250px;
 }
 .signupmain{
     padding: 20px 5px 20px 5px;
@@ -34,15 +38,70 @@
     font-weight: 200px;
 }
 .signupmain input{
-    border-radius: 0%;
-    border: 1px solid black;
+    width: 75%;
 }
 .signupmain input:focus{
+    outline: none;
+    border: none;
     border-radius: 0px;
-    outline: 2px solid rgb(162, 168, 245);
+    border-bottom: 1px solid black;
 }
 select{
     border: none;
     outline: 1px solid black;
+    font-variant: small-caps;
+}
+.title{
+    font-size: medium;
+    font-size: 28px;
+    font-weight: 600;
+}
+.check{
+    margin: -20px 0px 0px 10px;
+    /* transform: translate(40px); */
+}
+.checkbox-btn{
+    padding: 0px;
+    position: absolute;
+    left: -68px;
+    bottom: 59px;
+}
+ .signupmain label{
+    position:absolute;
+    left: 40px;
+    transform: translateY(0px);
+    pointer-events: none;
+   transition-duration: 0.25s;
+} 
+.notrans{
+    position: absolute;
+    top: 420px;
+}
+.signupmain input{
+    border: none;
+    outline: none;
+    background: none;
+    margin: 0px;
+    width: 220px;
+    border-bottom:1px solid black ;
+}.crac{
+    background-color: rgb(243, 81, 181);
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border-radius: 0px 0px 10px 10px ;
+    border: none;
+}
+.crac:hover{
+    background-color: rgb(243, 81, 181)  
+}
+.crac{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: medium;
+    color: rgb(255, 255, 255);
     font-variant: small-caps;
 }

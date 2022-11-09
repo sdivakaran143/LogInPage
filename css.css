@@ -28,7 +28,7 @@ h1{
     text-align: center;
     font-variant: small-caps;
 }
-.feild input,.signupmain input{
+.feild input{
     border: none;
     outline: none;
     background: none;
@@ -96,75 +96,4 @@ color:#0d6efd;
     text-decoration: none;
     color: aliceblue;
     font-variant: small-caps;
-}
-
-/* signup csss */
-.box{
-    text-align: center;
-    font-size:17px;
-    font-variant:small-caps;
-}
-.signupmain div{
-    padding: 20px;
-    width: 250px;
-}
-.signupmain{
-    padding: 20px 5px 20px 5px;
-    position: absolute;
-    top: 50%;
-    background: linear-gradient(rgb(247, 189, 223),white);
-    left: 50%;
-    transform: translate(-50%,-50%); 
-    box-sizing: border-box; 
-    border-radius: 10px ;
-    box-shadow: 3px 5px 15px rgb(143, 143, 143) ; 
-
-}
-.last{
-  border: none; 
-  background-color: black;
-  width: 100%;
-  padding: 10px 0px 10px 0px;
-  color: aliceblue;
-  font-weight: 200; 
-  text-align: center;
-}
-.last:hover{
-    background-color: blue;
-    color: aliceblue;
-    font-weight: 200px;
-}
-.signupmain input{
-    width: 75%;
-}
-.signupmain input:focus{
-    outline: none;
-    border: none;
-    border-radius: 0px;
-    border-bottom: 1px solid black;
-}
-select{
-    border: none;
-    outline: 1px solid black;
-    font-variant: small-caps;
-}
-.title{
-    font-size: medium;
-    font-size: 28px;
-    font-weight: 600;
-}
-.check{
-    margin: -20px 0px 0px 10px;
-    /* transform: translate(40px); */
-}
-.checkbox-btn{
-    padding: 0px;
-    position: absolute;
-    left: -64px;
-    bottom: 59px;
-}
-.signupmain label{
-    position: absolute;
-    pointer-events: none;
-   transition-duration: 0.25s;
 }

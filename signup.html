@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="signupcss.css">
 </head>
 <body>
    <div class="box">
@@ -13,22 +13,21 @@
         <span class="title">Signup</span>
         <form>
           <div>
+            <input  onclick="page2('fn')" type="text">
             <label id="fn" for="FirstName" >firstname</label>
-            <input  onclick="actionn('fn')" type="text" required>
           </div>
           <div>
+            <input type="text"  onclick="page2('ln')">
             <label id="ln"for="LAstName">lastname</label>
-            <input type="text" required>
           </div>
           <div>
+            <input type="number" onclick="page2('pn')">
             <label id="pn" for="phonenumber">phonename</label>
-            <input type="number" required>
           </div> <div>
+            <input type="email"  onclick="page2('eid')">
             <label id="eid" for="Email">emailid</label>
-            <input type="email" required>
           </div>  
           <div>
-            <label  for="Contry">contry</label>
             <select name="" id="" required>
                 <option value="">chose country</option>
                 <option value="">India</option>
@@ -38,7 +37,6 @@
             </select>
           </div>  
           <div>
-            <label for="Role">role</label>
             <select name="" id="" required>
                 <option value="">select Role</option>
                 <option value="">student</option>
@@ -47,21 +45,22 @@
             </select>
           </div>  
           <div>
-            <label id="dob" for="DOB">dob</label>
-            <input type="date" required>
+            <input type="date">
+            <label  class="notrans" for="DOB">dob</label>
           </div>  
           <div>
+            <input type="password"  onclick="page2('np')">
             <label  id="np"for="New password">new password</label>
-            <input type="password" required>
         </div>
         <div>
-            <label id="cp" for="confirm password">confirm password</label>
-            <input type="password" required>
+          <input type="password"  onclick="page2('cp')">
+          <label id="cp" for="confirm password">confirm password</label>
         </div>  
         <div class="check">
-            <p><input  type="checkbox" class="checkbox-btn">accept terms and conditions</p>
+          <input  type="checkbox" class="checkbox-btn">
+            <p style="pointer-events:none ;">accept terms and conditions</p>
         </div>
-        <button type="button" class="crac" >Submit form</button>
+        <button type="button" class="crac" onclick="goto()">Submit form</button>
       </form>
     </div>
    </div>
