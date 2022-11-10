@@ -9,14 +9,14 @@ function goto(){
 }
 function validateitis(username,password){
     var flag=1;
-    if(username==""){
+    if(username!=""){
         event.preventDefault();
         document.forms["login_form"]["username"].style.borderBottom="1px solid black";
         document.getElementById("inuser").innerHTML="";
     }
-    if(password==""){
+    if(password!=""){
         event.preventDefault();
-        document.forms["login_form"]["password"].style.borderBottom="1px solid red";
+        document.forms["login_form"]["password"].style.borderBottom="1px solid black";
         document.getElementById("inpass").innerHTML=""
     }
     if(username==""){
