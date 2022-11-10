@@ -34,7 +34,7 @@ h1{
     background: none;
     margin: 0px;
     width: 220px;
-    border-bottom:1px solid black ;
+     border-bottom:1px solid black ;
 }
 /* .feild label:focus{
     transform: translateY(0px);
@@ -96,4 +96,10 @@ color:#0d6efd;
     text-decoration: none;
     color: aliceblue;
     font-variant: small-caps;
+}
+.feild p{
+    position:absolute;
+    transform: translate(126px,-9px);
+    font-size: 13px;
+    color: red;
 }

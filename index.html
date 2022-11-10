@@ -10,15 +10,22 @@
 <body>
     <div class="main">
         <h1>Login</h1><br><br>
-        <form >
-           <div class="feild">
-           
-            <div><label for="" id="inp1">MAIL ID</label>
-            <input type="mailid" onclick="actionn('inp1')" value=""></div>
-            <div><label for="" id="inp2">PASSWORD</label><input type="password"  onclick="actionn('inp2')" value=""></div>
+        <form name="login_form"onsubmit="loginplease()">
+         <div class="feild">
+            <div>
+                <p id="inuser"></p>
+                <label for="" id="inp1">MAIL ID</label>
+
+                <input name="username" type="mailid" onclick="page1('inp1')" value="">
             </div>
+            <div>
+                <p id="inpass"></p>
+                <label for="" id="inp2">PASSWORD</label>
+                <input name="password" type="password"  onclick="page1('inp2')" value="">
+            </div>
+        </div>
             <span><a href="https://img.freepik.com/premium-vector/bye-bye-cute-emoji-cartoon-character-yellow-backround_106878-540.jpg?w=2000">Forget password ?</a></span>
-            <input class="button" onclick="" type="submit" value="LogIn">
+            <input class="button" type="submit" value="LogIn">
         </form>
         <div class="crac">
             <a href="signup.html">Create A New Account</a>

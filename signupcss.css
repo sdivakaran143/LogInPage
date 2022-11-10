@@ -105,3 +105,9 @@ select{
     color: rgb(255, 255, 255);
     font-variant: small-caps;
 }
+.dropdown select{
+    border: none;
+    outline: none;
+    background: none;
+    border:1px solid black;
+}

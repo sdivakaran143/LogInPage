@@ -11,49 +11,49 @@
    <div class="box">
     <div class="signupmain">
         <span class="title">Signup</span>
-        <form>
+        <form onsubmit="signupme()">
           <div>
-            <input  onclick="page2('fn')" type="text">
+            <input  name="firstname"  onclick="page2('fn')" type="text">
             <label id="fn" for="FirstName" >firstname</label>
           </div>
           <div>
-            <input type="text"  onclick="page2('ln')">
+            <input name="lastname" type="text"  onclick="page2('ln')">
             <label id="ln"for="LAstName">lastname</label>
           </div>
           <div>
-            <input type="number" onclick="page2('pn')">
+            <input  name="phonenumber" type="number" onclick="page2('pn')">
             <label id="pn" for="phonenumber">phonename</label>
           </div> <div>
-            <input type="email"  onclick="page2('eid')">
+            <input name="emailid" type="email"  onclick="page2('eid')">
             <label id="eid" for="Email">emailid</label>
           </div>  
-          <div>
+          <div class="dropdown">
             <select name="" id="" required>
-                <option value="">chose country</option>
-                <option value="">India</option>
-                <option value="">usa</option>
-                <option value="">uae</option>
-                <option value="">china</option>
+                <option value="1" selected disabled>chose your country</option>
+                <option value="2">India</option>
+                <option value="3">usa</option>
+                <option value="4">uae</option>
+                <option value="5">china</option>
             </select>
           </div>  
-          <div>
+          <div class="dropdown">
             <select name="" id="" required>
-                <option value="">select Role</option>
+                <option value="" selected disabled>select your role</option>
                 <option value="">student</option>
                 <option value="">admin</option>
                 <option value="">faculty</option>
             </select>
           </div>  
           <div>
-            <input type="date">
+            <input  name="dob" type="date">
             <label  class="notrans" for="DOB">dob</label>
           </div>  
           <div>
-            <input type="password"  onclick="page2('np')">
+            <input name="newpassword" type="password"  onclick="page2('np')">
             <label  id="np"for="New password">new password</label>
         </div>
         <div>
-          <input type="password"  onclick="page2('cp')">
+          <input name="confirmpassword" type="password"  onclick="page2('cp')">
           <label id="cp" for="confirm password">confirm password</label>
         </div>  
         <div class="check">
